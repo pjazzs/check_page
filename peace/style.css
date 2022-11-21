@@ -1,0 +1,85 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 0 12vw;
+}
+
+.check{
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20%;
+    box-shadow: 0px 0px 10px  rgb(154, 152, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+
+input{
+    display: block;
+    outline: none;
+    text-align: center;
+    margin: 10px 0 10px 0 ;
+    padding: 5px 0;
+    background-color: #ddd;
+    border-style: none;
+    width: 100%;
+
+}
+
+input::placeholder{
+    color: green;
+    font-size: 14px;
+}
+
+button{
+    padding:5px 20px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    border-style: none;
+    border-radius: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: .025s ease-out;
+}
+
+button:hover{
+    background-color: #0000ff;
+    transition: 0.25s ease-in;
+}
+
+.check_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #00ff00;
+    background-color: #f3f3f3;
+width: 100%;
+    margin-bottom: 10px;
+    border-radius: .7em;
+    padding: 20px;
+}
+
+h1{
+    border-bottom: 1px solid #000;
+    font-size: 1.2rem;
+    width: 100%;
+    color: #00ff;
+    font-weight: bolder;
+    text-shadow: hoff voff blur #000;
+}
+
+h2{
+    font-size: 14px;
+    /* border: 1px solid #000; */
+    margin-top: -2px;
+}
